@@ -1,0 +1,65 @@
+body{
+    display: flex;
+    /* flex-direction: row-reverse; */
+    /* justify-content: start; */
+    align-items: center;
+}
+.calc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    height: 250px;
+    border: solid 1px black;
+    background-color: #835054;
+    transition: 1s;
+}
+.visor{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 180px;
+    height: 40px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding-right: 5px;
+    border: solid 1px black;
+    background-color: rgb(134, 247, 168);
+}
+.divBtn{
+    display: flex;
+    flex-wrap: wrap;
+    width: 190px;
+}
+.teclas{
+    width: 47px;
+    height: 47px;
+}
+.limpar{
+    background-color: rgb(219, 152, 74);
+    color: #050505;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.gaveta{
+    margin-left: -210px;
+    transition: 1s;
+}
+.aba{
+    width: 20px;
+    color: #fff;
+    font-weight: 900;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 1.5rem;
+    background-color: #7e5353;
+    cursor: pointer;
+}
+.btn_gaveta{
+    display: inline-block;
+}
+.inverter{
+    
+    transform: rotateY(180deg);
+
+}
